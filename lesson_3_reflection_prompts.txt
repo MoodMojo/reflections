@@ -1,29 +1,55 @@
 When would you want to use a remote repository rather than keeping all your work
 local?
 
-    Fill in your answer here
+    When many people are working on the same repository. For example, when a team of
+	developers are working on a project and each of them needs to develop a certain part
+	of the program.
 
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+    Because the version you're working on locally might be a newer version that the one
+	on GitHub. Updating the local repository in this case would return it to a previous
+	older version which would be very inefficient for a programmer.
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+    Forks are a GitHub-specific cloning method which clones a repository from someone
+	and makes a clone in my own account while crediting the original creator.
+	Clones are copies of a repository which can be done anywhere either locally or with
+	a remote repository.
+	Branches are a history of commits which are done in a single repository.
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    Having such a copy can be used to work offline using this copy whenever it is
+	possible then once you merge this copy with the remote one you will have a final
+	copy of the desired repository.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    There are other methods to collaborate than GitHub such as Dropbox or others, but
+	Git makes it much easier when collaborating on a project that requires programming.
+	Other methods of collaboration may be easier when done for certain types of projects,
+	but GitHub facilitates the collaboration between programmers and makes it much more
+	efficient.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    Making changes in the master repository is more reasonable when fixing a bug or making
+	small adjustments in the program. On the other hand, it is advisable to make a separate
+	branch when making adjustments in the program that could potentially break it. Such 
+	risks are easily avoided by making a new branch and working on that feature on it while
+	the working program remains in the master branch.
+	Working in the master branch has its own benefits such as not having to merge and thus
+	avoiding the risk of merge conflicts. It's also faster as the adjustments are done directly
+	to the main branch.
+	Working in a separate branch helps avoid any risk of breaking the program when making
+	major adjustments to it such as adding a new feature or adjusting a core feature in
+	it. It also allows multiple people to work on the different branches of the program
+	in the same time or the same person could program more than one feature in the program
+	in the same time which is makes the programming process much faster and time efficient.
